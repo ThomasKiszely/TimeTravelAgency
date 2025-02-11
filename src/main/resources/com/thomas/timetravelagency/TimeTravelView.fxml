@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thomas.timetravelagency.TimeTravelView">
+   <children>
+      <Button layoutX="58.0" layoutY="70.0" mnemonicParsing="false" onAction="#onCustomerClick" prefHeight="26.0" prefWidth="147.0" text="CustomerAdministration" />
+      <Button layoutX="251.0" layoutY="70.0" mnemonicParsing="false" onAction="#onTimeMachinesClicked" prefHeight="26.0" prefWidth="147.0" text="Time Machines" />
+      <Button layoutX="442.0" layoutY="70.0" mnemonicParsing="false" onAction="#onTimePeriodClicked" prefHeight="26.0" prefWidth="147.0" text="Time Periods" />
+      <Button layoutX="651.0" layoutY="70.0" mnemonicParsing="false" onAction="#onBookingClick" prefHeight="26.0" prefWidth="147.0" text="Booking" />
+      <Button layoutX="650.0" layoutY="23.0" mnemonicParsing="false" onAction="#onExitButtonClicked" prefHeight="26.0" prefWidth="147.0" text="Exit" />
+      <ListView fx:id="timeTravel" layoutX="58.0" layoutY="150.0" onMouseClicked="#onMouseClickList" prefHeight="214.0" prefWidth="343.0" />
+      <TextArea fx:id="area59" layoutX="482.0" layoutY="150.0" prefHeight="460.0" prefWidth="343.0" />
+      <ListView fx:id="timePeriodView" layoutX="58.0" layoutY="395.0" onMouseClicked="#onMouseClickPeriodList" prefHeight="214.0" prefWidth="343.0" />
+   </children>
+</AnchorPane>
